@@ -92,6 +92,11 @@ public class Player extends Socket {
                 opponentsStore += opponentsPits[i];
                 opponentsPits[i] = 0;
             }
+            //added clearing current players side as well
+            for (int j = 0; j < yourPits.length; j++) {
+            	yourStore += yourPits[j];
+            	yourPits[j] = 0;
+            }
         }
 
 
