@@ -30,7 +30,7 @@ public class InstructionsPanel extends JPanel {
 
         // note: changed to be back button to keep the stating of a game in one spot, the start screen.
         JButton BackButton = new JButton("Back");
-        BackButton.setBounds(335, 542, 100, 25);
+        BackButton.setBounds(335, 530, 150, 32); // Changed bounds 
         add(BackButton);
 
         instructionsScrollPane = new JScrollPane(instructionsLabel = new JLabel(instructionsIcon));
